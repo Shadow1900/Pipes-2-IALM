@@ -1,1 +1,10 @@
-hola
+<p>Today is {{ fechaActual | date }}</p>
+<p>Or if you prefer, {{ fechaActual | date: 'fullDate' }}</p>
+<p>The is {{ fechaActual | date: 'h:mm a z' }}</p>
+
+<p>A: {{ a | percent }}</p>
+
+<p>{{ 3.6 | number: '1.0' }}</p>
+<p>{{ 3.6123 | number: '1.0-2' }}</p>
+<p>{{ 343.6234 | number: '4.0-3' }}</p>
+<p>{{ 3.6 | number: '1.0-0' }}</p>
